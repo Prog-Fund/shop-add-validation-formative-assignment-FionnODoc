@@ -72,8 +72,13 @@ public class Product {
      * @param productName The new Product Name
      */
     public void setProductName(String productName) {
-            this.productName = productName;
-    }
+        this.productName = productName;
+        if (productName.length() <= 20){
+            this.productName = productName;}
+        else{ this.productName = productName.substring(0,20);
+        }
+    };
+
     /**
      * Updates the Unit Cost to the value passed as a parameter
      * @param unitCost The new unit cost for the product
