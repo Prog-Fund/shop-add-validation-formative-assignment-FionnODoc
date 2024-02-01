@@ -77,7 +77,7 @@ public class Product {
             this.productName = productName;}
         else{ this.productName = productName.substring(0,20);
         }
-    };
+    }; //l
 
     /**
      * Updates the Unit Cost to the value passed as a parameter
