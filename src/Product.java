@@ -69,7 +69,7 @@ public class Product {
     }
     /**
      * Updates the Product Name to the value passed as a parameter
-     * @param productName The new Product Name
+     * @param productName The new Product Nameg
      */
     public void setProductName(String productName) {
         this.productName = productName;
